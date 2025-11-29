@@ -39,8 +39,8 @@ pip install comtypes
 ### 1. Clone or Download Project
 
 ```bash
-git clone https://github.com/yourusername/ppt-to-pdf-converter.git
-cd ppt-to-pdf-converter
+git clone https://github.com/kamrulislam27/PPT-to-PDF-Converter-Python-COMTypes.git
+cd PPT-to-PDF-Converter-Python-COMTypes
 ```
 
 ### 2. Install Dependencies
@@ -58,15 +58,15 @@ pip install comtypes
 1. Set source folder (PPT/PPTX) and target folder (PDF output) in script:
 
 ```python
-source = r"D:\cxdownload"
-target = r"D:\cxdownload\Viona"
+source = r"D:\sourceFolder"
+target = r"D:\sourceFolder\targetFolder"
 ppt_to_pdf(source, target)
 ```
 
 2. Run the script:
 
 ```bash
-python convert.py
+python pptToPdf.py
 ```
 
 3. Optional: Use command line args for file/folder:
@@ -83,10 +83,10 @@ python convert.py "C:/path/to/folder" --recursive
 
 ```
 ppt-to-pdf-converter/
-│── convert.py
+│── pptToPdf.py
 │── README.md
-└── input/   # optional input folder
-└── output/  # optional output folder
+└── pptFolder/   # optional input folder
+└── pdfFolder/  # optional output folder
 ```
 
 ---
@@ -107,15 +107,9 @@ This project is licensed under the **MIT License**. Modify and redistribute free
 
 ## 📬 Contact
 
-📧 Email: your_email_here
-💬 WhatsApp: optional
-💻 GitHub: [https://github.com/yourusername](https://github.com/kamrulislam27)
+📧 Email: kamrul@ahut.edu.cn  
+💻 GitHub: [https://github.com/kamrulislam27](https://github.com/kamrulislam27)
 
 ---
 
-## 🌟 Optional Enhancements
 
-* Add GUI with drag-and-drop
-* Progress bar during batch conversion
-* Automatic recursive folder scanning
-* Generate EXE using PyInstaller
