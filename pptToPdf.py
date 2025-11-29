@@ -21,7 +21,8 @@ def ppt_to_pdf(source_folder, target_folder):
 
 
 # Example usage:
-source = r"D:\sourceFolder"
-target = r"D:\sourceFolder\targetFolder"
+source = r"D:\pptFolder"
+target = r"D:\pdfFolder"
 ppt_to_pdf(source, target)
+
 
